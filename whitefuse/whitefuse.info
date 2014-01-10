@@ -1,5 +1,5 @@
-name = Wireframe
-description = White Fuse Media's Wireframe
+name = Whitefuse Client Tech Theme
+description = White Fuse Media's Client Tech Theme
 package = Core
 version = 0.1
 core = 7.x
