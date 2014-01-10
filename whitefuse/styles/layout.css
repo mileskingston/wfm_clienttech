@@ -8,7 +8,7 @@ div#wrapper {
   position:relative;
   max-width:1202px;
   margin:0 auto;
-  background:#ccc;
+  background:#fff;
 }
 div#page {
   position:relative;
@@ -17,7 +17,7 @@ div#page {
   padding:0;
 }
 div.holder {
-  max-width:990px;
+  max-width:1200px;
   margin:0 auto;
 }
 

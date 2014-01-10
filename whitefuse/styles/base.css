@@ -2,9 +2,7 @@
 --------*/
 
 /* Fonts
-  font-family:'museo-sans',Arial,Helvetica,sans-serif;
   font-family:'Raleway', Arial, sans-serif;
-	font-family:'lobster','Times New Roman',Times,serif;
 */
 
 
@@ -36,26 +34,25 @@ a * {
 }
 
 h1 {
-  margin:0 0 15px 0;
+  margin:0 0 20px 0;
   line-height:48px;
-	font-family:'lobster','Times New Roman',Times,serif;
   font-size:40px;
   font-weight:700;
 }
 h2 {
-  margin:0 0 5px 0;
+  margin:0 0 12px 0;
   line-height:36px;
   font-size:30px;
   font-weight:700;
 }
 h3 {
-  margin:0 0 5px 0;
+  margin:0 0 6px 0;
   line-height:30px;
   font-size:24px;
-  font-weight:600;
+  font-weight:700;
 }
 h4 {
-  margin:0 0 5px 0;
+  margin:0 0 6px 0;
   line-height:20px;
   font-size:inherit;
   font-weight:600;
@@ -132,7 +129,6 @@ blockquote cite {
   font-size:20px;
   font-weight:normal;
   font-style:normal;
-  font-family:'lobster','Times New Roman',Times,serif;
   color:#383c4d;
 }
 
@@ -151,7 +147,6 @@ blockquote.client p {
 blockquote.client cite {
   font-size:14px;
   line-height:18px;
-  font-family:'Raleway', Arial, sans-serif;
   text-align:right;
   padding:10px 0 0 0;
 }
@@ -245,7 +240,7 @@ input[type="text"],
 input[type="password"],
 select,
 textarea {
-  padding:3px;
+  padding:6px;
   border:1px solid #646565;
 }
 input[type="email"],
@@ -280,6 +275,9 @@ input[type="submit"] {
   background:#599dd2;
   border:0;
   cursor:pointer;
+  -webkit-border-radius:3px;
+  -moz-border-radius:3px;
+  border-radius:3px;
   -webkit-transition:background 250ms ease-in-out;
   -moz-transition:background 250ms ease-in-out;
   -ms-transition:background 250ms ease-in-out;
@@ -332,15 +330,12 @@ div.form-item label.option {
 }
 div.form-item div.description {
   clear:left;
-  margin:3px 0 0 0;
-  padding:8px 10px;
+  margin:6px 0 12px 0;
+  padding:10px;
   line-height:18px;
   font-size:14px;
-  color:#aaa;
-  background:#f2f2f2;
-  -webkit-border-radius:5px;
-  -moz-border-radius:5px;
-  border-radius:5px;
+  color:#888;
+  background:#e9e9e9;
 }
 div#edit-copy-wrapper,
 div.views-admin-links {

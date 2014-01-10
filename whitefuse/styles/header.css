@@ -2,65 +2,20 @@
 ----------*/
 
 div#header {
-  position:fixed;
   max-width:1200px;
   width:100%;
   z-index:200;
-  padding:10px 0;
+  padding:3.2255% 0;
   margin:0;
-  background:rgb(255,255,255);	
-  background:rgba(255,255,255,0.9);	
-  -webkit-transition:all 0.25s ease-in-out;
-  -moz-transition:all 0.25s ease-in-out;
-  transition:all 0.25s ease-in-out;
-}
-div#header a {
-  -webkit-transition:all 250ms ease-in-out;
-  -moz-transition:all 250ms ease-in-out;
-  -ms-transition:all 250ms ease-in-out;
-  -o-transition:all 250ms ease-in-out;
-  transition:all 250ms ease-in-out;
+  background:#fff;
 }
 
-.shadow {
-  -webkit-box-shadow:0 6px 0 0 rgb(204,204,204);
-  -moz-box-shadow:0 6px 0 0 rgb(204,204,204);
-  box-shadow:0 6px 0 0 rgb(204,204,204);
-  -webkit-box-shadow:0 6px 0 0 rgba(0,0,0,0.2);
-  -moz-box-shadow:0 6px 0 0 rgba(0,0,0,0.2);
-  box-shadow:0 6px 0 0 rgba(0,0,0,0.2)
-}
-
-div#block-block-2 {
-  margin:0 0 0 3.0303%;
-  float:left;
-}
-div#logo {
-  float:left;
-}
-div#logo a {
-  float:left;
-  color:#383c4e;
-  
-}
-div#logo a span.icon {
+a#logo {
   display:block;
-  float:left;
-  width:40px;
-  height:40px;
-  background:url('../logo.png') no-repeat;
+  text-align:center;
 }
-div#logo a:hover span.icon {
-  background-image:url('../logo-hover.png');
-}
-div#logo a:hover {
-  color:#df5289;
-}
-div#logo a span.text {
-  float:left;
-  padding:0 10px;
-  line-height:40px;
-  font-size:20px;
+a#logo img {
+  max-width:80px;
 }
 
 div#block-system-main-menu {
@@ -103,61 +58,4 @@ div#block-system-main-menu ul li a:hover {
 }
 div#block-system-main-menu ul li ul {
 	display:none;
-}
-
-div#block-menu-menu-top-menu {
-  float:right;
-  margin:0;
-  padding:0 3.0303% 0 0;
-}
-div#block-menu-menu-top-menu h2 {
-	display:none;
-}
-div#block-menu-menu-top-menu ul {
-  margin:0;
-  padding:0;
-  line-height:40px;
-  font-size:14px;
-  text-transform:uppercase;
-}
-div#block-menu-menu-top-menu ul li {
-  float:left;
-  margin:0;
-  padding:0;
-  list-style:none;
-  -webkit-transition:all 0.25s ease-in-out;
-  -moz-transition:all 0.25s ease-in-out;
-  transition:all 0.25s ease-in-out;
-}
-div#block-menu-menu-top-menu ul li.last {
-  margin-right:0;
-}
-div#block-menu-menu-top-menu ul li a {
-  float:left;
-  padding:0;
-  color:#383c4e;
-}
-div#block-menu-menu-top-menu ul li.active-trail a {
-  color:#eb6C9a;
-}
-div#block-menu-menu-top-menu ul li a:hover {
-  color:#df5289;
-}
-
-div#block-block-15 {
-  display:none;
-  position:absolute;
-  top:0px;
-  right:0px;
-}
-div#block-block-15 div.mobile-button {
-  display:block;
-  cursor:pointer;
-  width:30px;
-  height:30px;
-  margin:10px;
-  padding:5px;
-}
-div#block-block-15 div.mobile-button:hover {
-  background:#ccc;
 }
